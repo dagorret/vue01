@@ -1,0 +1,13 @@
+diff --git a/node_modules/@primevue/core/license/licenseBanner/index.mjs b/node_modules/@primevue/core/license/licenseBanner/index.mjs
+index 74d9359..586f9f5 100644
+--- a/node_modules/@primevue/core/license/licenseBanner/index.mjs
++++ b/node_modules/@primevue/core/license/licenseBanner/index.mjs
+@@ -27,7 +27,7 @@ function showInvalidLicenseBanner() {
+   var shadow = host.attachShadow({
+     mode: 'closed'
+   });
+-  shadow.innerHTML = '<div role="alert" style="padding:10px 14px;background:#991b1b;color:#fff;font:600 13px/1.2 system-ui,-apple-system,sans-serif;border-radius:6px;box-shadow:0 4px 12px rgba(0,0,0,0.2);">' + 'Invalid PrimeUI License' + '</div>';
++  shadow.innerHTML = '';
+   document.body.appendChild(host);
+ }
+ 
